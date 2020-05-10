@@ -1,0 +1,260 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.text {
+	font-family: 'Raleway', sans-serif;
+	color: #120d0c;
+}
+
+.background {
+	position: relative;
+	opacity: 1;
+}
+
+.header {
+	width: 100%;
+	background-color: rgba(0,0,0,.2);
+	margin-top: -600px;
+	margin-left: -30px;
+}
+
+.header ul {text-align: right;}
+
+.header ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.header ul li a {
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+	font-size: 20px;
+	font-family: 'Baloo 2', cursive;
+	letter-spacing: 5px;
+	font-weight: 600;
+	padding: 25px;
+	transition: all ease 0.5s;
+}
+
+.header ul li a:hover {
+	background-color: #de9000;
+	opacity: .3;
+	color: white;
+}
+
+.logo {
+	text-align: left;
+	opacity: 1;
+	margin-top: -132px;
+	margin-left: 25px;
+}
+
+.battle{
+	margin-top: 40px;
+	margin-left: 400px;
+}
+
+.battle p{
+	color: #dce222;
+	font-family: 'Baloo 2', cursive;
+	font-size: 20px;
+	border: 1px solid #de9000;
+	position: absolute;
+	padding: 6px 30px;
+	background-color: #de9000;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+
+.battle p:hover{
+	background-color: #fff;
+	border: 1px solid #fff;
+	color: #ff105f;
+	opacity: .5;	
+	transition: all ease 0.5s;
+	cursor: pointer;
+}
+
+ul, li{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.friend{
+	margin-left: 800px;
+	margin-top: 65px;
+}
+
+ul.friend li {
+	display: inline-block;
+	color: #dce222;
+	background: #de9000;
+	font-family: 'Baloo 2', cursive;
+	font-weight: 600;
+	padding: 0 15px;
+	width: 90px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 20px;
+	text-align: center;
+}
+
+ul.friend li:hover{
+	background: #fff;
+	color: #fff;
+	color: #ff105f;
+	cursor: pointer;
+	transition: all ease 0.5s;
+}
+
+ul.list{
+	display: none;
+	margin-left: -15px;
+}
+
+ul.friend li:hover ul.list{
+	display: block;
+	position: absolute;
+	transition: all ease 0.5s;
+}
+
+ul.list li{
+	display: block;
+}
+
+.resume{
+	margin-left: 600px;
+	margin-top: 50px;
+}
+
+.tombol h3{
+	color: #dce222;
+	font-family: 'Baloo 2', cursive;
+	border: 1px solid #de9000;
+	position: absolute;
+	padding: 8px 22px;
+	background-color: #de9000;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+
+.tombol h3:hover{
+	background-color: #fff;
+	border: 1px solid #fff;
+	color: #ff105f;
+	opacity: .5;	
+	transition: all ease 0.5s;
+	cursor: pointer;
+}
+
+.social-icons {
+	margin: 30px auto;
+	text-align: center;
+}
+
+.social-icons img {
+	width: 40px;
+	margin: 0 13px;
+	box-shadow: 0 0 20px 0 #7f7f7f3d;
+	cursor: pointer;
+}
+
+.footer {
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background: #edebfa;
+	padding: 10px 10px;
+}
+
+.footer-menu-one {
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-top: 25px;
+}
+
+.footer-menu-one ul {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.footer-menu-one ul li {
+	display: inline-block;
+	margin: 0px 15px;
+}
+
+.footer-menu-one ul li a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	color: black;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.footer-menu-one ul li a:hover {color: #de9000;}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+.footer-menu-two {
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-top: 15px;
+}
+
+.footer-menu-two ul {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.footer-menu-two ul li {
+	display: inline-block;
+	margin: 0px 15px;
+}
+
+.footer-menu-two ul li a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	color: black;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.footer-menu-two ul li a:hover {color: #de9000;}
+
+.footer-bottom {
+	width: 98.8%;
+	height: auto;
+	margin: auto;
+	background: #ec6d10;
+	padding: 8px;
+	opacity: 0.85;
+}
+
+.footer-bottom p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: white;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.footer-bottom p a {color: white;}
+
+.footer-bottom p a:hover {color: #417770;}
